@@ -87,7 +87,7 @@ def main():
         yoko,tate = check_bound(bd_rct)
         if not yoko:  # 横方向に画面外だったら
             vx *=-1
-        if not tate:  # 縦方向に範囲外だったら
+        if not tate:  # 縦方向に範囲外だったら     
             vy *=-1
         screen.blit(bd_img, bd_rct)
         pg.display.update()
